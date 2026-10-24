@@ -33,10 +33,12 @@ An intelligent customer support application designed to automate ticket classifi
    ```bash
    git clone [https://github.com/sreeharib92-creator/AI-Powered-Customer-Support-Ticket-Intelligence-System.git](https://github.com/sreeharib92-creator/AI-Powered-Customer-Support-Ticket-Intelligence-System.git)
    cd AI-Powered-Customer-Support-Ticket-Intelligence-System
+   ```
 **Install Dependencies:**
 ```bash
 pip install streamlit pandas plotly scikit-learn
-
+```
 **Run the Streamlit Application:**
-Bash
+```bash
 python -m streamlit run app.py
+```
