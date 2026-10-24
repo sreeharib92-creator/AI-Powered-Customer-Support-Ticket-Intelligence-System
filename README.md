@@ -55,7 +55,7 @@ Markdown
 
 
 2. **Install Dependencies:**
-   ```
+   ```Bash
    pip install streamlit pandas plotly scikit-learn
 
    ```
