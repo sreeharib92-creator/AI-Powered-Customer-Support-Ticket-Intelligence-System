@@ -40,3 +40,24 @@ AI-Powered-Customer-Support-Ticket-Intelligence-System/
 ├── SENTIMENTAL_ANALYSISMODULE_3.ipynb # Sentiment analysis module notebook
 ├── TICKET_PRIORITY_RECOMMENDATION_MODULE_4.ipynb # Priority recommendation module
 └── SUGGESTED_RESPONSES_MODULE_5.ipynb # Suggested responses generation module
+
+---
+
+## ⚙️ Installation & Setup
+
+Markdown
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/sreeharib92-creator/AI-Powered-Customer-Support-Ticket-Intelligence-System.git](https://github.com/sreeharib92-creator/AI-Powered-Customer-Support-Ticket-Intelligence-System.git)
+   cd AI-Powered-Customer-Support-Ticket-Intelligence-System
+
+Install Dependencies:
+
+Bash
+
+pip install streamlit pandas plotly scikit-learn
+Run the Streamlit Application:
+
+Bash
+
+python -m streamlit run app.py
