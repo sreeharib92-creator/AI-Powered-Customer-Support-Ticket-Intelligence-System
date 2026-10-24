@@ -1,0 +1,9 @@
+ticket_id,complaint,category,sentiment,suggested_priority,priority_reason,agent_priority,agent_changed_priority
+101,I was charged twice and need help immediately,Billing and Payments,Negative,High,"Urgency keyword detected: immediately, charged twice",,
+102,I cannot access my account and I am upset,Account Access,Negative,High,Negative sentiment with a high-risk category,High,False
+103,I want a refund for my order,Refund Requests,Neutral,Medium,Billing or refund issue,,
+104,The application crashes when I open it,Technical Issues,Negative,High,Negative sentiment with a high-risk category,,
+105,Please tell me more about your product,Product or Service Complaints,Positive,Low,No higher-priority rule was triggered,,
+106,The product quality is very bad,Product or Service Complaints,Negative,Medium,Negative customer sentiment,,
+107,My account has been hacked,Account Access,Negative,High,Urgency keyword detected: hacked,,
+108,I have a question about my invoice,Billing and Payments,Neutral,Medium,Billing or refund issue,,

@@ -1,0 +1,49 @@
+ticket_id,complaint,category,sentiment,suggested_priority,priority_reason,agent_priority,agent_changed_priority,suggested_response
+101,I was charged twice and need help immediately,Billing and Payments,Negative,High,"Urgency keyword detected: immediately, charged twice",,,"Hello,
+
+Thank you for reaching out regarding your billing inquiry. We are currently reviewing your transaction details and will resolve any discrepancies within 24 hours.
+
+Best regards,
+Customer Support Team"
+102,I cannot access my account and I am upset,Account Access,Negative,High,Negative sentiment with a high-risk category,High,False,"Hello,
+
+We understand you are facing trouble accessing your account. Please use the password reset link sent to your registered email, or let us know if you need further assistance with two-factor authentication.
+
+Best regards,
+Security Support Team"
+103,I want a refund for my order,Refund Requests,Neutral,Medium,Billing or refund issue,,,"Hello,
+
+Thank you for your request. We have initiated the review process for your refund. Approved refunds typically reflect in your account within 3 to 5 business days.
+
+Best regards,
+Billing & Finance Team"
+104,The application crashes when I open it,Technical Issues,Negative,High,Negative sentiment with a high-risk category,,,"Hello,
+
+We apologize for the technical difficulties you are experiencing. Our engineering team has been notified and is actively investigating the issue.
+
+Best regards,
+Technical Support Team"
+105,Please tell me more about your product,Product or Service Complaints,Positive,Low,No higher-priority rule was triggered,,,"Hello,
+
+We sincerely apologize for the unsatisfactory experience. We value your feedback and are looking into this matter to ensure it does not happen again.
+
+Best regards,
+Customer Relations Team"
+106,The product quality is very bad,Product or Service Complaints,Negative,Medium,Negative customer sentiment,,,"Hello,
+
+We sincerely apologize for the unsatisfactory experience. We value your feedback and are looking into this matter to ensure it does not happen again.
+
+Best regards,
+Customer Relations Team"
+107,My account has been hacked,Account Access,Negative,High,Urgency keyword detected: hacked,,,"Hello,
+
+We understand you are facing trouble accessing your account. Please use the password reset link sent to your registered email, or let us know if you need further assistance with two-factor authentication.
+
+Best regards,
+Security Support Team"
+108,I have a question about my invoice,Billing and Payments,Neutral,Medium,Billing or refund issue,,,"Hello,
+
+Thank you for reaching out regarding your billing inquiry. We are currently reviewing your transaction details and will resolve any discrepancies within 24 hours.
+
+Best regards,
+Customer Support Team"
