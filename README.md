@@ -53,13 +53,11 @@ Markdown
    git clone [https://github.com/sreeharib92-creator/AI-Powered-Customer-Support-Ticket-Intelligence-System.git](https://github.com/sreeharib92-creator/AI-Powered-Customer-Support-Ticket-Intelligence-System.git)
    cd AI-Powered-Customer-Support-Ticket-Intelligence-System
 ---
-Install Dependencies:
 
-Bash
+2. **Install Dependencies:**
+   ```bash
+   pip install streamlit pandas plotly scikit-learn
 
-pip install streamlit pandas plotly scikit-learn
-Run the Streamlit Application:
+   ```bash
 
-Bash
-
-python -m streamlit run app.py
+   python -m streamlit run app.py
