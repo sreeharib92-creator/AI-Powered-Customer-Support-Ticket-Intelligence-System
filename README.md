@@ -11,7 +11,7 @@ An intelligent customer support application designed to automate ticket classifi
 - **Priority Recommendation:** Recommends ticket priority (High, Medium, Low) based on sentiment, category, and urgency rules.
 - **Suggested Responses:** Generates draft responses for support agents using predefined templates.
 - **Interactive Dashboard (Streamlit):** Visualizes trends with Plotly charts, key metrics, search filters, and CSV report downloads.
-- **Database Integration (SQLite):** Persists ticket records, allowing agents to add new tickets and update ticket statuses (`Pending`, `In Progress`, `Resolved`, `Closed`).
+- **Database Integration (SQLite):** Persists ticket records, allowing agents to add new tickets and update ticket statuses.
 
 ---
 
@@ -27,37 +27,17 @@ An intelligent customer support application designed to automate ticket classifi
 
 ---
 
-## 📁 Project Structure
-
-```text
-AI-Powered-Customer-Support-Ticket-Intelligence-System/
-│
-├── app.py                             # Main Streamlit Dashboard application
-├── tickets_database.db                # SQLite database storing ticket records
-├── ticket_responses_results.csv       # Processed dataset with responses
-├── ticket_priority_results.csv        # Processed dataset with priority analysis
-├── AI-powered_customer_support_ticket_intelligence_system (1).ipynb # Data preprocessing & pipeline notebook
-├── SENTIMENTAL_ANALYSISMODULE_3.ipynb # Sentiment analysis module notebook
-├── TICKET_PRIORITY_RECOMMENDATION_MODULE_4.ipynb # Priority recommendation module
-└── SUGGESTED_RESPONSES_MODULE_5.ipynb # Suggested responses generation module
-
----
-
-## ⚙️ Installation & Setup
-
-Markdown
 ## ⚙️ Installation & Setup
 
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/sreeharib92-creator/AI-Powered-Customer-Support-Ticket-Intelligence-System.git](https://github.com/sreeharib92-creator/AI-Powered-Customer-Support-Ticket-Intelligence-System.git)
    cd AI-Powered-Customer-Support-Ticket-Intelligence-System
+Install Dependencies:
 
+Bash
+pip install streamlit pandas plotly scikit-learn
+Run the Streamlit Application:
 
-2. **Install Dependencies:**
-   ```Bash
-   pip install streamlit pandas plotly scikit-learn
-
-   ```
-
-   python -m streamlit run app.py
+Bash
+python -m streamlit run app.py
