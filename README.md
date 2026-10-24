@@ -46,11 +46,13 @@ AI-Powered-Customer-Support-Ticket-Intelligence-System/
 ## ⚙️ Installation & Setup
 
 Markdown
+## ⚙️ Installation & Setup
+
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/sreeharib92-creator/AI-Powered-Customer-Support-Ticket-Intelligence-System.git](https://github.com/sreeharib92-creator/AI-Powered-Customer-Support-Ticket-Intelligence-System.git)
    cd AI-Powered-Customer-Support-Ticket-Intelligence-System
-
+---
 Install Dependencies:
 
 Bash
